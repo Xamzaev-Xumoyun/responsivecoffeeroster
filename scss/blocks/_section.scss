@@ -5,7 +5,8 @@
 .section__box{
   background-image: url(../images/Bitmap.jpg);
   background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat;
+
   border-radius: 10px;
 }
 
@@ -97,6 +98,8 @@ color: #FEFCF7
   @media only screen and (max-width:650px) and ( min-width:591px ){
     .section__box{
       background-image: url(../images/Bitmap31.png);
+      background-position: right -50px;
+      
      
     }
   }

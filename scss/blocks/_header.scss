@@ -91,20 +91,19 @@
     z-index: 1;
   }
 
+ 
+  
   .header__item{
     display: none;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0px;
+    background-color: #83888F;
+    margin: 0px;
+    padding: 10px;
+    right: 30px;
   }
-  // .header__item{
-  //   display: block;
-  //   position: absolute;
-  //   z-index: 2;
-  //   right: 0;
-  //   top: 0px;
-  //   background-color: #83888F;
-  //   margin: 0px;
-  //   padding: 10px;
-  //   right: 30px;
-  // }
 
 
    .header__link{
@@ -135,16 +134,16 @@
 
 
   
-.header__menu__button:checked+.header__item{
+.header__menu__button:hover+.header__item{
   display: block;
-  position: absolute;
-  z-index: 2;
-  right: 0;
-  top: 0px;
-  background-color: #83888F;
-  margin: 0px;
-  padding: 10px;
-  right: 30px;
+  // position: absolute;
+  // z-index: 2;
+  // right: 0;
+  // top: 0px;
+  // background-color: #83888F;
+  // margin: 0px;
+  // padding: 10px;
+  // right: 30px;
   
 }
 

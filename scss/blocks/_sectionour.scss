@@ -6,7 +6,12 @@
 .section-our__image{
   border-radius: 10px;
   height: 520px;
+  background-position: center;
+
+  
+  
 }
+
 
 
 
@@ -47,3 +52,32 @@
   margin: 0px;
   margin-top: 32px;
 }
+
+
+
+@media only screen and (max-width:768px){
+
+  .section-our__box{
+  
+    padding: 0 40px;
+  }
+
+  .section-our__image{
+    max-width: 281px;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
