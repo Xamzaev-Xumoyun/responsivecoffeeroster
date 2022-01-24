@@ -4,7 +4,7 @@
 
 .section__box{
   
-  background-image: url(../../images/Bitmap.jpg);
+  background-image: url(../images/Bitmap.jpg);
    background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,11 +65,11 @@ color: #FEFCF7
 
 
 
+@media only screen and (max-width:768px )
 
 
 
-
-@media only screen and (max-width:768px ){
+{
   .section__box{
     border-radius: 10px;
     

@@ -4,6 +4,7 @@
 
 
 .section-our__image {
+  
   border-radius: 10px;
   height: 520px;
   background-position: center;
@@ -26,9 +27,7 @@
 
 }
 
-.section-our__our-box {
-  
-}
+
 
 
 .section-our__text {
@@ -80,7 +79,7 @@
   .section-our__box {
     margin: 0px;
 
-    padding: 0 40px;
+    padding: 0 20 px;
   }
 
   .section-our__text {
@@ -106,10 +105,11 @@
 
 
 
-@media only screen and (max-width:690px) {
+@media only screen and (max-width:690px) and (min-width:426px) {
   .section-our__image{
     max-width: 500px;
     width: 100%;
+    object-fit: cover;
   }
 
 .section-our__our-box{
@@ -124,4 +124,30 @@
   .section-our__box{
     flex-wrap: wrap;
   }
+}
+
+
+@media only screen and (max-width:425px){
+
+  .section-our__box{
+    flex-wrap: wrap;
+  }
+
+
+  .section-our__image{
+    max-width: 420px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+  }
+
+
+  .section-our__our-box{
+    text-align: center;
+    margin: 0px;
+  }
+
+ 
 }
